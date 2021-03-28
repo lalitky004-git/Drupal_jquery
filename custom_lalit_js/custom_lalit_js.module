@@ -1,0 +1,17 @@
+<?php
+
+
+/**
+ * Implements hook_page_attachments()
+ */
+function custom_lalit_js_page_attachments(array &$attachments) {
+
+  $current_path = \Drupal::service('path.current')->getPath();
+  if ($current_path == '/user/login') {
+    $attachments['#attached']['library'][] = 'custom_lalit_js/lalit_js';
+  }
+  if ($current_path == '/myform') {
+    $attachments['#attached']['library'][] = 'custom_lalit_js/lalit_form_js';
+  }
+
+}

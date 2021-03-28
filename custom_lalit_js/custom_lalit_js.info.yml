@@ -1,0 +1,5 @@
+name: 'custom lalit module'
+type: module
+description: 'Program by lalit'
+package: 'Custom'
+core_version_requirement: ^8 || ^9

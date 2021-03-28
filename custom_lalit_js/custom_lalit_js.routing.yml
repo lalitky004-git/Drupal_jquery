@@ -1,0 +1,7 @@
+myform.custom_form:
+ path: '/myform'
+ defaults:
+    _title: 'Custom form'
+    _form:  '\Drupal\custom_lalit_js\Form\CustomForm'
+ requirements:
+    _permission: 'access content'

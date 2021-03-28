@@ -1,0 +1,17 @@
+lalit_js:
+  version: 1.x
+  js:
+    js/custom_lalit_js.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - markjs_search/markjs.jquery
+    - core/jquery
+    - core/jquery.once
+lalit_form_js:
+  version: 1.x
+  js:
+    js/custom_form_lalit_js.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
